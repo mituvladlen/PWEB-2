@@ -200,3 +200,45 @@ section {
   line-height: 1.6;
 }
 
+/* Benefits Section */
+.benefits {
+  background-color: white;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.benefit-card {
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: var(--bg-light);
+  transition: var(--transition);
+  border: 2px solid transparent;
+}
+
+.benefit-card:hover {
+  border-color: var(--primary-blue);
+  background-color: white;
+  box-shadow: 0 6px 20px rgba(7, 52, 198, 0.1);
+}
+
+.benefit-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.benefit-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--text-dark);
+}
+
+.benefit-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
