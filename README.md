@@ -1,24 +1,86 @@
-# Lab 2 - Landing page
+# MediaGrowth - Landing Page
 
-Create a web page for your/friends/relatives business (example: car-rent, cookies-shop, crypto-scam)
+A professional landing page for MediaGrowth, a content rewards agency that helps creators, streamers, and online brands grow faster through performance-based short-form content campaigns.
 
-> For a maximal grade, the website should be for a real client (your/friends/relatives business), otherwise -1-2 points
+## About MediaGrowth
 
-## Customer requirements
+MediaGrowth runs performance-based clipping campaigns using Whop. Creators launch campaigns with a reward budget, and a network of clippers creates and posts short-form videos (TikTok, Instagram Reels, YouTube Shorts) from their content. Clippers are paid only for results (e.g., per 1,000 views), making it fully performance-driven.
 
-- Some form of navigation to sections (links, buttons)
-- Call to action
-- At least 4 sections ([see examples](https://webflow.com/blog/high-converting-landing-page))
-- Pleasant to the eyes
+Instead of one main account posting a few videos per day, creators get dozens or hundreds of sub-accounts posting content focused only on them, massively increasing reach, discoverability, and follower growth.
 
-## Dev requirements
+## Screenshots
 
-- Use vanilla CSS and HTML (no frameworks)
-- Have a decent git history (no one commit)
-- The page should be deployed on a free hosting service (example: GitHub Pages, Vercel, Netlify)
-- Project repo should have a README with a short description of the landing page topic, screenshots, and a link to the live demo
+### Hero Section
+![Hero Section](images/ss1.png)
 
-## Other requirements:
+### How It Works
+![How It Works](images/ss2.png)
 
-- For potential maximal mark, a WIP version should be submitted during the class
-- Use index.html, reset.css
+### Benefits
+![Benefits](images/ss3.png)
+
+### Testimonials
+![Testimonials](images/ss4.png)
+![Testimonials](images/ss5.png)
+
+### Contact
+![Contact](images/ss6.png)
+
+## Features
+
+- ✅ **5 Sections**: Hero, How It Works, Benefits, Testimonials, Contact
+- ✅ **Responsive Design**: Works on desktop, tablet, and mobile
+- ✅ **Smooth Navigation**: Sticky navbar with smooth scrolling
+- ✅ **Brand Colors**: Custom color scheme (#0734c6, #f5d920, #eec624)
+- ✅ **Performance-Based**: No frameworks, pure HTML/CSS
+- ✅ **Interactive Elements**: Hover effects and animations
+
+## Technologies Used
+
+- HTML5
+- CSS3 (Vanilla, no frameworks)
+- JavaScript (smooth scrolling)
+- Responsive Design (CSS Grid & Flexbox)
+
+## Project Structure
+
+```
+├── index.html          # Main landing page
+├── style.css           # Custom styles
+├── reset.css           # CSS reset
+├── images/             # Images and assets
+│   ├── mediagrowth.png
+│   └── 1.png - 5.png (testimonials)
+└── README.md           # Project documentation
+```
+
+## Local Development
+
+To view the website locally:
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/Lab2-PWEB.git
+
+# Navigate to the directory
+cd Lab2-PWEB
+
+# Open index.html in your browser
+start index.html
+```
+
+## Deployment
+
+This site can be deployed to:
+- **GitHub Pages**: Settings → Pages → Deploy from branch
+- **Vercel**: Import repository and deploy
+- **Netlify**: Drag and drop or connect repository
+
+## Contact
+
+**MediaGrowth**
+- Instagram: [@mituvladlen](https://www.instagram.com/mituvladlen/)
+- Email: vladlen.mitu@gmail.com
+
+---
+
+*Lab 2 - Web Programming | Technical University of Moldova*
